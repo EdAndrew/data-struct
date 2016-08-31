@@ -49,6 +49,22 @@ void Insert(ElementType e, List l, Position p)
 	p->next = tmp;	
 }
 
+void DeleteList(List l)
+{
+	Position tmp;
+	while (l->next != NULL)
+	{
+		tmp = l;
+		l = l->next;
+		free(tmp);
+	}
+}
+
+
+
+
+
+
 
 
 
