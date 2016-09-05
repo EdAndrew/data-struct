@@ -25,6 +25,3 @@ struct HashTbl
 
 
 
-
-
-
